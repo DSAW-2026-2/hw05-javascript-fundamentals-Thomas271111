@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Modo oscuro por clase (Tailwind v4 usa prefers-color-scheme por defecto;
+   esto lo cambia a que dependa de la clase .dark en <html>, controlada por
+   el toggle en main.js). */
+@custom-variant dark (&:where(.dark, .dark *));

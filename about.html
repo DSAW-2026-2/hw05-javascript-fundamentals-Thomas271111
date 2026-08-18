@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre el equipo — Corral</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@400;500;600;700&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body class="bg-[#faf8f4] text-[#2b2b26] dark:bg-gray-900 dark:text-gray-100 font-sans">
+
+  <header class="border-b border-[#ddd6c9] dark:border-gray-700">
+    <nav class="max-w-[1400px] mx-auto flex flex-wrap items-center justify-between gap-6 px-4 py-4 md:px-10 lg:px-[120px]">
+      <a href="index.html" class="font-['Schibsted_Grotesk'] font-semibold text-2xl tracking-[-1.44px] text-black dark:text-white">Corral</a>
+
+      <ul class="flex flex-wrap gap-6 font-['Schibsted_Grotesk'] font-medium text-base tracking-[-0.2px]">
+        <li><a href="index.html#problema" class="text-black dark:text-white hover:border-b-2 hover:border-[#2f4a5c] dark:hover:border-sky-400">El problema</a></li>
+        <li><a href="index.html#proyecto" class="text-black dark:text-white hover:border-b-2 hover:border-[#2f4a5c] dark:hover:border-sky-400">El proyecto</a></li>
+        <li><a href="index.html#faq" class="text-black dark:text-white hover:border-b-2 hover:border-[#2f4a5c] dark:hover:border-sky-400">Preguntas frecuentes</a></li>
+      </ul>
+
+      <div class="flex items-center gap-2">
+        <button
+          type="button"
+          data-theme-toggle
+          aria-label="Cambiar entre modo claro y oscuro"
+          class="rounded-md border border-[#ddd6c9] dark:border-gray-600 px-3 py-2 text-sm font-medium text-black dark:text-white hover:bg-[#f8f8f8] dark:hover:bg-gray-800"
+        >
+          🌓 Tema
+        </button>
+        <a href="index.html" class="rounded-md bg-black dark:bg-white text-white dark:text-black px-4 py-2 text-sm font-medium hover:bg-gray-700 dark:hover:bg-gray-200">Volver al inicio</a>
+      </div>
+    </nav>
+
+    <div class="max-w-[900px] mx-auto flex flex-col items-center text-center gap-4 px-4 py-8 md:px-10 lg:px-[120px] lg:pb-14">
+      <h1 class="font-['Fustat'] font-bold text-3xl sm:text-4xl tracking-[-1px] text-black dark:text-white">
+        Sobre el equipo
+      </h1>
+    </div>
+  </header>
+
+  <main class="max-w-[1100px] mx-auto px-4 py-12 md:px-6 lg:px-8">
+
+    <section id="equipo" class="mb-16">
+      <h2 class="inline-block border-b-[3px] border-[#2f4a5c] dark:border-sky-400 pb-2 mb-8 text-2xl font-bold text-[#2b4a2b] dark:text-white">Quién está detrás de Corral</h2>
+      <article class="rounded-lg border border-[#ddd6c9] dark:border-gray-700 bg-white dark:bg-gray-800 p-6 max-w-[560px]">
+        <h3 class="font-semibold text-lg mb-2 text-[#2b4a2b] dark:text-white">Thomas Andres Rincon Cañon</h3>
+        <p class="text-[#2b2b26] dark:text-gray-300">
+          Estudiante de Ingeniería, Universidad de La Sabana. Encargado de
+          todo el proyecto: backend, frontend, diseño en Figma y
+          documentación.
+        </p>
+      </article>
+    </section>
+
+    <section id="sobre-proyecto">
+      <h2 class="inline-block border-b-[3px] border-[#2f4a5c] dark:border-sky-400 pb-2 mb-8 text-2xl font-bold text-[#2b4a2b] dark:text-white">Sobre el proyecto</h2>
+      <p class="leading-relaxed">
+        Corral es un proyecto desarrollado para el curso de Diseño y
+        Arquitectura Web (DSAW), pensado para ayudar a dueños de fincas
+        ganaderas pequeñas y medianas en Colombia a llevar el control de su
+        hato de forma digital.
+      </p>
+    </section>
+  </main>
+
+  <footer class="text-center px-4 py-8 border-t border-[#ddd6c9] dark:border-gray-700 text-[#2b2b26] dark:text-gray-400">
+    <p>DSAW — Universidad de La Sabana — HW04</p>
+  </footer>
+
+</body>
+</html>
